@@ -143,22 +143,94 @@ h1 {
 
 /*      Diseño        */
 
-body{
-    background-color: rgb(34, 33, 33) ;
+body {
+    background-color: rgb(41,41,41);
     font-family: sans-serif;
-    
-    
+    color: white;
 }
-.letras {
-    color: rgb(255, 255, 255);
-    margin-left: 20px;
-    font-family: sans-serif;
-    margin-bottom: -1%;
-    
-    
-    
+
+.blanco {
+    color: gray;
+    text-decoration: none;
+    font-size: 20px;
 }
-.letras:hover {
-    filter: brightness(80%); 
+
+.Contenedor {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
+
+.center-menu {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30%;
+}
+
+.center-text {
+    text-align: center;
+    margin: 1.5rem;
+}
+
+/* Hover */
+a:hover {
+    color:rgb(253, 254, 254 );
+}
+
+/* Dimensiones */
+.Dimension-15 {
+    height: 15%;
+    width: 15%;
+}
+
+.Dimension-80 {
+    height: 25%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Dimension-5 {
+    height: 5%;
+    width: 5%;
+}
+
+/* Colores */
+.colores {
+    height: 25vh; 
+    width: 25%;
+    padding: 1rem;
+    overflow: hidden;
+}
+.colores:hover{
+    overflow:auto; 
+    box-sizing: border-box;
+}
+.colores h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.colores p {
+    font-size: 1rem;
+    margin: 0;
+}
+.celeste {
+    background-color: rgb(52, 152, 219);
+}
+
+.amarillo {
+    background-color: rgb(244, 208, 63);
+}
+
+.naranjo {
+    background-color: rgb(230, 126, 34);
+}
+
+.rojo {
+    background-color: rgb(192, 57, 43);
+}
+
 
